@@ -2,7 +2,7 @@ import React, { Suspense } from "react";
 import Bottles from "./components/Bottles";
 
 const App = () => {
-  const bottleData = fetch("../public/bottle.json").then((res) => res.json());
+  const bottleData = fetch("/public/bottle.json").then((res) => res.json());
 
   return (
     <div>
